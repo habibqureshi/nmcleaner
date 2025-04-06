@@ -1,0 +1,27 @@
+{
+  "name": "nmcleaner",
+  "version": "3.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "nmcleaner": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "this package will clean all node_module in dir",
+  "dependencies": {
+    "fast-folder-size": "^2.4.0",
+    "fs-extra": "^11.1.1",
+    "get-folder-size": "^5.0.0",
+    "inquirer": "^9.2.16",
+    "yoctocolors": "^2.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
